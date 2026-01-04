@@ -18,12 +18,16 @@ public class InputManager : MonoBehaviour
         {
             if (cap != null)
             {
-                cap.Execute();    
+                cap.Execute();
             }
         }
         if (Input.GetKeyUp(KeyCode.Backspace))
         {
             cap.Undo();
+        }
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            Debug.Log(TestSingleton.Instance.testNum);
         }
     }
 }
