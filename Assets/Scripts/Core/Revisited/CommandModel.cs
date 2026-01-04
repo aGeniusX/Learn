@@ -1,6 +1,6 @@
 using System;
 
-public interface RevisitCommand
+public interface CommandModel
 {
     /// <summary>
     /// 执行

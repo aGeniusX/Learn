@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CapMovement : RevisitCommandObj
+public class CapMovement : CommandModelObj
 {
     private Stack<Vector3> vector3s = new();
     void Start()

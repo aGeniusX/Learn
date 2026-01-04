@@ -3,7 +3,7 @@ using UnityEngine;
 /// <summary>
 /// 接受指令的obj
 /// </summary>
-public class RevisitCommandObj : MonoBehaviour, RevisitCommand
+public class CommandModelObj : MonoBehaviour, CommandModel
 {
     public virtual void Execute() { }
 
